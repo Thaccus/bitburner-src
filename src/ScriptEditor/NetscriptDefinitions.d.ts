@@ -265,7 +265,7 @@ interface RunningScript {
   /** Number of seconds that this script has been running online */
   onlineRunningTime: number;
   /** A Process ID unique to this script across all hosts. Must be an integer starting
-   * from 0 as the first process spawned at game launch and incrementing from there.
+   * from 1 for the first process spawned at game launch and incrementing from there.
    * Note that PIDs are not saved in the savegame and are regenerated at launch.
    */
   pid: number;
